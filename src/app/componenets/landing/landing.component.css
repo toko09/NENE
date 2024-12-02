@@ -1,0 +1,45 @@
+.mainDiv{
+     height: 70vh;
+    width: 100%;
+    background: linear-gradient(#854442, #3C2F2F);
+    padding-top: 10px;
+
+}
+.eclipse{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: linear-gradient(#838383, #FFFFFF);
+    /* border: 1px solid #838383; */
+    box-shadow: 0 0 10px #FFFFFF;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.eclipse > img {
+    margin: auto;
+}
+.texts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+.title{
+ 
+    font-family: "Grand Hotel", cursive;
+    color: #FFFFFF;
+    font-size: 64px;
+
+}
+.motivate{
+    font-family: "Grand Hotel", cursive;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0 10px;
+    color: #504b4b;
+}
